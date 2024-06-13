@@ -1,0 +1,43 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [27/71] - La propriété CSS font family
+Lien : https://www.youtube.com/watch?v=DI1kAdDMDh8&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=27
+
+Dans ce cours on apprend à modifier la police d'écritures avec google font
+Google propose une liste de type d'écritures selon le lien suivant :
+https://fonts.google.com/
+
+Choisir le type de police d'écriture puis :
+-> sélectionner sur le site '+ Select this style'
+-> dans la page html :
+	. saisir le lien entre la page html et la page css dans l'élément <head> : 
+		<link rel="stylesheet" type="text/css" href="NomFichierCSS.css">
+	. copier le lien affiché dans le site google à droite de la fenêtre avec 
+	l'entête : "To embed a font, copy the code into the <head> of your html" et 
+		laisser la sélection <link>
+-> copier dans la page css pour le sélecteur concerné, le lien affiché dans le 
+site google à droite de la fenêtre avec l'entête :
+	"CSS rules to specify families"
+
+Éditeur : Laurent REYNAUD
+Date : 15-02-2021
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./027_fontFamily.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<h1 class="sevillana-regular">Font family</h1>
+	<p>Un paragraphe</p>
+</body>
+
+</html>

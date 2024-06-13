@@ -1,0 +1,38 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [60/71] - Créer un formulaire HTML simple
+Lien : https://www.youtube.com/watch?v=ksQeyrgwddw&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=61
+
+Pour créer un formulaire il faut recourir aux balises ouvrantes et fermantes 'form' 
+et dont la balise ouvrante
+doit avoir deux attributs : 
+. method pour l'envoi des données qui peut avoir deux valeurs : get et post 
+(valeur post généralement utilisée);
+. action qui sert à définir une page de traitement des données
+
+Éditeur : Laurent REYNAUD
+Date : 08-03-21
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cours HTML et CSS</title>
+</head>
+
+<body>
+	<h1>Les formulaires</h1>
+	<form method="post" action="traitement.png">
+		<label for="prenom">Entrer votre prénom</label>
+		<input type="text" id="prenom" name="prenom"> <br><br>
+
+		<label for="prez">Petite présentation</label>
+		<textarea name="" id="prez" name="presentation"></textarea> <br><br>
+
+		<input type="submit" value="Go !">
+	</form>
+</body>
+
+</html>

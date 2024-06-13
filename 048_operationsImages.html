@@ -1,0 +1,42 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [48/71] - Opérations sur les images
+Lien : https://www.youtube.com/watch?v=ZpzCecyIjqo&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=48
+
+L'élément img est de type inline donc il se positionne à côte d'autres 
+contenus html. Afin d'éviter qu'une autre image se positionne jusqu'à côté 
+de la 1ère image, il existe 3 possibilités :
+. soit l'élément img devient un type block
+. soit on utilise la propriété css display
+. soit on utilise les propriétés css float et clear
+
+Éditeur : Laurent REYNAUD
+Date : 24-02-21
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours CSS</title>
+    <link rel="stylesheet" href="./048_operationsImages.css">
+</head>
+
+<body>
+    <h1>Opérations sur les images</h1>
+    <!-- Différentes solutions pour que l'image prenne toute la ligne -->
+    <!-- 1ère solution : en entourant par l'élément div qui est de type block -->
+    <div>
+        <img src="./images/sky.png" alt="Ciel" class="img1">
+    </div>
+    <!-- 2ème solution : en recourant au type display "block" en CSS -->
+    <img src="./images/sky.png" alt="Ciel" class="img2">
+    <img src="./images/sky.png" alt="Ciel" class="img2">
+    <!-- 3ème solution : en recourant aux types "float" et "clear" en CSS-->
+    <img src="./images/sky.png" alt="Ciel" class="img3">
+    <img src="./images/sky.png" alt="Ciel" class="img3">
+    <!-- Image cadrée -->
+    <img src="./images/sky.png" alt="Ciel" class="img4">
+</body>
+
+</html>

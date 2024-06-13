@@ -1,0 +1,53 @@
+<!-- 
+Cours : COURS COMPLET HTML ET CSS [53/71] - Sélecteurs CSS complexes
+Lien : https://www.youtube.com/watch?v=BBLiWbqRum8&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=53x=52
+
+Il existe des sélecteur css permettant de sélectionner certains éléments html :
+- Sélecteur universel '*' : permet d'affecter toutes les propriétés css à tous les 
+éléments html d'un coup -> cas présenté ici
+- Sélecteur ',' : permet de sélectionner un certain nombre de propriétés css
+- Sélection d'un bloc contenant certains éléments
+- Sélecteur '+' : permet de sélectionner certains éléments à un ordre précis
+(non évoqué ici car je ne suis pas fan)
+- Sélecteur '>' : permet de sélectionner des éléments à l'intérieur d'autres éléments
+
+Éditeur : Laurent REYNAUD
+Date : 24-02-21
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours HTML et CSS</title>
+    <link rel="stylesheet" href="./053_selecteursComplexes.css">
+</head>
+
+<body>
+    <h1 class="h1">Les sélecteurs complexes</h1>
+    <h2>Un titre h2</h2>
+    <p class="p1">Un 1er paragraphe</p>
+    <p class="p2">Un 2ème paragraphe</p>
+    <br>
+    <div class="div1">
+        <h2>Un titre h2 dans le 1er div</h2>
+        <p>Un 1er paragraphe dans le 1er div</p>
+        <p>Un 2ème paragraphe dans le 1er div</p>
+    </div>
+    <br>
+    <div class="div2">
+        <h2 class="h2">Un titre h2 dans le 2ème div</h2>
+        <p>Un 1er paragraphe dans le 2ème div</p>
+        <p class="p2">Un 2ème paragraphe dans le 2ème div</p>
+    </div>
+    <br>
+    <div>
+        <h2 class="h2">Un titre h2 dans le 3ème div</h2>
+        <p>Un 1er paragraphe dans le 3ème div</p>
+        <p class="p2">Un 2ème paragraphe dans le 3ème div</p>
+    </div>
+</body>
+
+</html>
